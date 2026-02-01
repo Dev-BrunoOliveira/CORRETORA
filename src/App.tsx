@@ -19,7 +19,6 @@ const IconCheck = () => (
 const App: React.FC = () => {
   return (
     <div className="app-shell">
-      {/* WhatsApp Button */}
       <a
         href="https://wa.me/5521999999999"
         className="whatsapp-float"
@@ -166,7 +165,7 @@ const App: React.FC = () => {
           <p>CNPJ: 54.907.611/0001-47</p>
           <p>R EVILASIO SILVA 34 - FONSECA | CEP: 24130-720</p>
           <p style={{ marginTop: "30px", opacity: 0.6 }}>
-            © 2026 SeguraMind - Protegendo o seu amanhã.
+            © 2026 PARABELLUM CORRETORA - Protegendo o seu amanhã.
           </p>
         </footer>
       </div>
