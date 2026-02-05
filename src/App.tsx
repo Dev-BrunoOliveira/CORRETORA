@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
+// Importando os componentes que você criou
+import Navbar from "./components/Navbar";
 
+// Dica: No próximo passo, você pode levar este IconCheck para components/ também!
 const IconCheck = () => (
   <svg
     width="22"
@@ -19,6 +22,7 @@ const IconCheck = () => (
 const App: React.FC = () => {
   return (
     <div className="app-shell">
+      {/* Botão Flutuante do WhatsApp */}
       <a
         href="https://wa.me/5521999999999"
         className="whatsapp-float"
@@ -30,16 +34,8 @@ const App: React.FC = () => {
         </svg>
       </a>
 
-      <nav>
-        <div className="logo" style={{ fontSize: "1.5rem" }}>
-          PARABELLUM<span style={{ color: "var(--accent)" }}>CORRETORA</span>
-        </div>
-        <div className="nav-links">
-          <span>Vantagens</span>
-          <span>Coberturas</span>
-          <span style={{ color: "var(--accent)" }}>Simulação</span>
-        </div>
-      </nav>
+      {/* Uso do seu novo componente Navbar */}
+      <Navbar />
 
       <header className="hero">
         <div className="hero-content">
@@ -92,54 +88,26 @@ const App: React.FC = () => {
 
         <section className="plans-grid">
           <div className="plan-card">
-            <h3
-              style={{
-                color: "var(--accent)",
-                marginBottom: "25px",
-                fontSize: "2rem",
-              }}
-            >
+            <h3 style={{ color: "var(--accent)", marginBottom: "25px", fontSize: "2rem" }}>
               Indenizações
             </h3>
             <ul style={{ listStyle: "none", display: "grid", gap: "18px" }}>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Morte (Natural/Acidental)
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Invalidez Permanente Total
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Doenças Graves Plus
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Diária de Internação
-              </li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Morte (Natural/Acidental)</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Invalidez Permanente Total</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Doenças Graves Plus</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Diária de Internação</li>
             </ul>
           </div>
 
           <div className="plan-card">
-            <h3
-              style={{
-                color: "var(--accent)",
-                marginBottom: "25px",
-                fontSize: "2rem",
-              }}
-            >
+            <h3 style={{ color: "var(--accent)", marginBottom: "25px", fontSize: "2rem" }}>
               Diferenciais
             </h3>
             <ul style={{ listStyle: "none", display: "grid", gap: "18px" }}>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Assistência Funeral Familiar
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Sorteios Mensais em Dinheiro
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Descontos em Farmácias
-              </li>
-              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}>
-                <IconCheck /> Segunda Opinião Médica
-              </li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Assistência Funeral Familiar</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Sorteios Mensais em Dinheiro</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Descontos em Farmácias</li>
+              <li style={{ display: "flex", gap: "12px", fontSize: "1.2rem" }}><IconCheck /> Segunda Opinião Médica</li>
             </ul>
           </div>
         </section>
@@ -152,14 +120,7 @@ const App: React.FC = () => {
             color: "var(--text-muted)",
           }}
         >
-          <p
-            style={{
-              fontWeight: 800,
-              color: "#fff",
-              marginBottom: "10px",
-              fontSize: "1.2rem",
-            }}
-          >
+          <p style={{ fontWeight: 800, color: "#fff", marginBottom: "10px", fontSize: "1.2rem" }}>
             PARABELLUM CORRETORA DE SEGUROS LTDA
           </p>
           <p>CNPJ: 54.907.611/0001-47</p>
