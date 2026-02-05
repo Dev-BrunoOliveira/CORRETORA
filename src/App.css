@@ -25,27 +25,51 @@ html, body {
 nav {
   max-width: 1440px;
   margin: 0 auto;
-  height: 90px;
+  height: 120px; /* Aumentado para dar mais respiro vertical */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 var(--container-padding); 
+  padding: 0 var(--container-padding);
   width: 100%;
 }
 
 .nav-links {
   display: flex;
-  gap: 35px; 
+  gap: 40px; /* Aqui é onde os links se afastam um do outro */
+  align-items: center;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-main); /* Garante que pegue o branco do root */
+  transition: 0.3s;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
 
+.nav-links a:hover {
+  color: var(--accent);
+  opacity: 1;
+}
+
+/* --- AJUSTE NO LOGO --- */
+.logo {
+  font-weight: 800;
+  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+}
+
+/* --- AJUSTE NO HERO PARA NÃO COLAR NA NAV --- */
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 85vh;
+  min-height: calc(85vh - 120px); /* Ajusta a altura descontando a nav */
   align-items: center;
   width: 100%;
-  padding-left: var(--container-padding); 
+  padding-left: var(--container-padding);
+  margin-top: 20px; /* Empurra o conteúdo um pouco para baixo */
 }
 
 .hero-content {
