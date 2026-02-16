@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-// Importando os componentes que você criou
 import Navbar from "./components/Navbar";
 
-// Dica: No próximo passo, você pode levar este IconCheck para components/ também!
+
 const IconCheck = () => (
   <svg
     width="22"
@@ -22,7 +21,6 @@ const IconCheck = () => (
 const App: React.FC = () => {
   return (
     <div className="app-shell">
-      {/* Botão Flutuante do WhatsApp */}
       <a
         href="https://wa.me/5521999999999"
         className="whatsapp-float"
@@ -33,8 +31,6 @@ const App: React.FC = () => {
           <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.412 2.503 1.112 3.487l-.729 2.661 2.728-.715c.947.518 2.026.814 3.175.814 3.181 0 5.767-2.586 5.768-5.766 0-3.18-2.586-5.766-5.766-5.766zm3.488 8.163c-.15.424-.877.788-1.216.837-.301.043-.687.067-1.127-.087-.27-.094-.61-.225-1.042-.412-1.848-.797-3.04-2.684-3.132-2.806-.092-.123-.746-.992-.746-1.889 0-.897.47-1.336.638-1.541.168-.206.37-.258.492-.258s.246.002.353.007c.112.005.263-.043.413.318.15.361.514 1.25.56 1.341.045.092.076.199.015.318-.061.12-.092.195-.184.301-.092.106-.194.238-.277.319-.092.091-.188.19-.081.374.107.184.475.785 1.018 1.268.699.623 1.285.817 1.468.91.184.091.29.076.398-.047.107-.123.46-.534.582-.716.123-.182.246-.153.414-.092.168.061 1.072.506 1.256.598.184.092.306.138.35.215.043.076.043.44-.107.864z" />
         </svg>
       </a>
-
-      {/* Uso do seu novo componente Navbar */}
       <Navbar />
 
       <header className="hero">
@@ -126,7 +122,7 @@ const App: React.FC = () => {
           <p>CNPJ: 54.907.611/0001-47</p>
           <p>R EVILASIO SILVA 34 - FONSECA | CEP: 24130-720</p>
           <p style={{ marginTop: "30px", opacity: 0.6 }}>
-            © 2026 PARABELLUM CORRETORA - Protegendo o seu amanhã.
+            © 2026 PARABELLUM CORRETORA.
           </p>
         </footer>
       </div>
