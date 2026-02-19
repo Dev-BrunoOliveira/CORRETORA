@@ -67,7 +67,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="hero-image-container">
-          <img src="/familia.jpg" alt="Família Segura" className="hero-image" />
+          <img src="/familia.webp" alt="Família Segura" className="hero-image" />
         </div>
       </header>
 
