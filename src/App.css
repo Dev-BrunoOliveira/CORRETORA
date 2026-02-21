@@ -153,12 +153,12 @@ nav {
   padding: 4rem 3rem;
   border-radius: 32px;
   border: 1px solid var(--border-color);
-  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.274);
 }
 
 .plan-card:hover {
   border-color: var(--accent);
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
