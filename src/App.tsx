@@ -67,7 +67,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="hero-image-container">
-          <img src="/familia.webp" alt="Família Segura" className="hero-image" />
+          <img src="/familia.webp" alt="Happy family of four smiling together in a warm, welcoming home setting that conveys trust and security" className="hero-image" />
         </div>
       </header>
 

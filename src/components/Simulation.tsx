@@ -42,7 +42,4 @@ const Simulation: React.FC = () => {
   );
 };
 
-// Adicione este estilo ao seu App.css
-// .input-style { background: #1c1e22; border: 1px solid var(--border-color); padding: 15px; border-radius: 8px; color: white; width: 100%; }
-
 export default Simulation;
