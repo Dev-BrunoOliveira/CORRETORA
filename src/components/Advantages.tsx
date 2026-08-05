@@ -9,25 +9,25 @@ interface AdvantageItem {
 
 const advantagesList: AdvantageItem[] = [
   {
-    icon: "⚖️",
-    title: "Liquidez Imediata",
+    icon: "⚡",
+    title: "Dinheiro Rápido na Conta",
     description:
-      "O capital segurado não entra em inventário judicial. A indenização é paga diretamente aos beneficiários em poucos dias, garantindo recurso financeiro rápido quando a família mais necessita.",
-    tag: "Sem Burocracia",
+      "Se o pior acontecer, a família não precisa esperar processo na justiça ou inventário. O dinheiro cai direto na conta de quem você escolher em poucos dias para pagar contas e manter a rotina.",
+    tag: "Sem Enrolação",
   },
   {
     icon: "💰",
-    title: "Isenção de Impostos",
+    title: "100% Livre de Impostos",
     description:
-      "Toda a indenização do seguro de vida é 100% isenta de Imposto de Renda e do ITCMD (imposto estadual sobre herança). Cada centavo contratado vai integralmente para sua família.",
-    tag: "Economia Garantida",
+      "Nem o Governo nem o Imposto de Renda tiram nada desse valor. O dinheiro contratado vai integralmente para sua família, sem nenhum desconto de imposto sobre herança.",
+    tag: "Valor Integral",
   },
   {
     icon: "🏥",
-    title: "Proteção Usufruída em Vida",
+    title: "Você Também Usa em Vida",
     description:
-      "O seguro não é apenas para fatalidades. Você também pode receber indenização em vida em casos de diagnóstico de doenças graves ou incapacidade temporária/permanente por acidente.",
-    tag: "Uso em Vida",
+      "O seguro não é só pra quando você faltar! Se você for diagnosticado com uma doença grave ou precisar parar de trabalhar por conta de um acidente, você recebe o dinheiro em vida para se cuidar.",
+    tag: "Ajuda em Vida",
   },
 ];
 
@@ -35,10 +35,10 @@ const Advantages: React.FC = () => {
   return (
     <section id="vantagens" className="container-full">
       <div className="section-header">
-        <span className="section-badge">DIFERENCIAIS</span>
-        <h2 className="section-title">Por que ter um Seguro de Vida?</h2>
+        <span className="section-badge">POR QUE TER?</span>
+        <h2 className="section-title">O que faz o seguro valer a pena?</h2>
         <p className="section-subtitle">
-          Entenda os benefícios estratégicos que fazem do seguro de vida o pilar de proteção patrimonial mais inteligente.
+          Muito mais do que uma proteção para o futuro: uma ajuda financeira de verdade nos momentos que você mais precisa.
         </p>
       </div>
 

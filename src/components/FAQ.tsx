@@ -7,29 +7,29 @@ interface FAQItem {
 
 const faqList: FAQItem[] = [
   {
-    question: "O seguro de vida precisa entrar no inventário judicial?",
+    question: "O dinheiro do seguro precisa de inventário ou advogado pra sair?",
     answer:
-      "Não! Por lei (Artigo 794 do Código Civil), o seguro de vida não é considerado herança e, por isso, não entra no inventário. O valor é pago diretamente aos beneficiários indicados, sem burocracia e em poucos dias úteis após a entrega dos documentos.",
+      "Não! O dinheiro do seguro de vida não passa por inventário nem justiça. Ele é pago direto na conta da pessoa que você escolheu em poucos dias, sem burocracia e sem precisar pagar advogado.",
   },
   {
-    question: "A indenização paga Imposto de Renda ou imposto de herança (ITCMD)?",
+    question: "Paga Imposto de Renda ou algum imposto quando recebe o dinheiro?",
     answer:
-      "Não. Toda indenização recebida por seguro de vida é 100% isenta de Imposto de Renda (IRPF) e isenta do imposto estadual sobre transmissão causa mortis e doação (ITCMD).",
+      "Não paga absolutamente nada! O valor contratado vai 100% limpo para a conta de quem você indicou. Não tem desconto de Imposto de Renda nem de imposto de herança.",
   },
   {
-    question: "Posso utilizar a cobertura em vida?",
+    question: "Posso receber o dinheiro em vida se eu tiver um problema de saúde?",
     answer:
-      "Com certeza! Nossas apólices contam com coberturas que protegem você em vida, como diagnóstico de Doenças Graves (câncer, AVC, infarto), Invalidez Permanente por Acidente e Diária de Internação Hospitalar.",
+      "Sim! Se você for diagnosticado com uma doença grave (como câncer, infarto ou AVC) ou sofrer um acidente que te impeça de trabalhar, você recebe o valor contratado para se cuidar e pagar seus custos.",
   },
   {
-    question: "Quem pode ser indicado como beneficiário?",
+    question: "Quem eu posso colocar pra receber o dinheiro?",
     answer:
-      "Você escolhe livremente quem serão os seus beneficiários no momento da contratação (cônjuge, filhos, pais, parceiros de negócios ou qualquer pessoa que desejar) e pode alterar essa indicação quando quiser.",
+      "Quem você quiser! Pode ser seu marido, esposa, filhos, pais, irmãos ou qualquer pessoa que você queira proteger. E você pode mudar esses nomes a qualquer momento sem complicação.",
   },
   {
-    question: "Como funciona a contratação e qual a carência?",
+    question: "Como funciona pra fazer a simulação? É demorado?",
     answer:
-      "A contratação é 100% digital e sem burocracia. Para morte acidental não há carência após a emissão da apólice. Para morte natural ou doenças graves, aplicam-se carências regulamentadas que explicamos detalhadamente no seu orçamento.",
+      "É super rápido e 100% online. Em menos de 2 minutos você faz a simulação aqui pelo site e tira todas as suas dúvidas direto no WhatsApp com a nossa equipe.",
   },
 ];
 
@@ -46,7 +46,7 @@ const FAQ: React.FC = () => {
         <span className="section-badge">TIRE SUAS DÚVIDAS</span>
         <h2 className="section-title">Perguntas Frequentes</h2>
         <p className="section-subtitle">
-          Tudo o que você precisa saber para contratar seu seguro de vida com total segurança e clareza.
+          Tudo o que você precisa saber para proteger quem você ama sem nenhuma complicação.
         </p>
       </div>
 

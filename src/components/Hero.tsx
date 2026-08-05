@@ -6,17 +6,16 @@ const Hero: React.FC = () => {
       <div className="hero-content">
         <div className="badge">
           <span className="badge-dot"></span>
-          Seguro de Vida com Liquidez Imediata
+          Proteção simples e sem burocracia
         </div>
 
         <h1>
-          Sua família segura, <br />
-          <span className="text-gradient">seu legado protegido.</span>
+          Tranquilidade para você viver bem, <br />
+          <span className="text-gradient">segurança para quem você ama.</span>
         </h1>
 
         <p className="hero-description">
-          Não deixe o futuro ao acaso. Proteja quem você ama com o seguro de
-          vida mais completo, transparente e acessível do Brasil.
+          Garanta um apoio financeiro rápido para sua família sem precisar de inventário ou complicação. Faça uma simulação em segundos e veja como cabe no seu bolso.
         </p>
 
         <div className="hero-actions">
@@ -26,7 +25,7 @@ const Hero: React.FC = () => {
               document.getElementById("simulacao")?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            Solicitar Orçamento Grátis
+            Simular no WhatsApp Grátis
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <line x1="5" y1="12" x2="19" y2="12" />
               <polyline points="12 5 19 12 12 19" />
@@ -37,24 +36,24 @@ const Hero: React.FC = () => {
             href="#vantagens"
             className="btn-secondary"
           >
-            Conhecer Vantagens
+            Como Funciona
           </a>
         </div>
 
         <div className="hero-stats">
           <div className="stat-item">
-            <h4>+10k</h4>
+            <h4>+10 mil</h4>
             <p>Famílias Protegidas</p>
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
-            <h4>24h</h4>
-            <p>Atendimento Dedicado</p>
+            <h4>Atendimento</h4>
+            <p>Rápido no WhatsApp</p>
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
             <h4>100%</h4>
-            <p>Isento de Imposto</p>
+            <p>Livre de Impostos</p>
           </div>
         </div>
       </div>
@@ -69,8 +68,8 @@ const Hero: React.FC = () => {
           <div className="hero-glass-card">
             <div className="glass-icon">🛡️</div>
             <div>
-              <strong>Proteção Garantida</strong>
-              <span>Sem burocracia nem inventário</span>
+              <strong>Proteção de Verdade</strong>
+              <span>Sem burocracia nem surpresas na mensalidade</span>
             </div>
           </div>
         </div>

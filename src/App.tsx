@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Carriers from "./components/Carriers";
 import Advantages from "./components/Advantages";
 import Coverages from "./components/Coverages";
 import Simulation from "./components/Simulation";
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <Carriers />
         <Advantages />
         <Coverages />
         <Simulation />

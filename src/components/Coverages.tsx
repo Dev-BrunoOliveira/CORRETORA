@@ -20,48 +20,48 @@ const Coverages: React.FC = () => {
   return (
     <section id="coberturas" className="container-full bg-surface">
       <div className="section-header">
-        <span className="section-badge">COBERTURAS COMPLETAS</span>
-        <h2 className="section-title">O que entregamos para você</h2>
+        <span className="section-badge">TUDO O QUE ESTÁ INCLUSO</span>
+        <h2 className="section-title">Proteção completa para o seu dia a dia</h2>
         <p className="section-subtitle">
-          Combinações de indenizações financeiras e assistências 24h pensadas para cobrir todos os cenários da sua vida.
+          Entenda de forma simples e direta o que o seu plano garante para você e sua família:
         </p>
       </div>
 
       <div className="plans-grid">
         <div className="plan-card coverage-card highlight">
           <div className="card-header">
-            <div className="coverage-badge">INDENIZAÇÕES FINANCEIRAS</div>
-            <h3 className="card-title">Garantias em Dinheiro</h3>
-            <p className="card-desc">Valores depositados diretamente na conta em caso de sinistro:</p>
+            <div className="coverage-badge">DINHEIRO NA CONTA</div>
+            <h3 className="card-title">Pagamentos em Dinheiro</h3>
+            <p className="card-desc">Valores depositados diretamente na conta em caso de necessidade:</p>
           </div>
 
           <ul className="feature-list">
             <li>
               <IconCheck />
               <div>
-                <strong>Morte (Natural ou Acidental)</strong>
-                <span>Pagamento integral aos beneficiários escolhidos.</span>
+                <strong>Apoio por Morte (Qualquer Causa)</strong>
+                <span>Valor pago integralmente para quem você escolher como beneficiário.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
-                <strong>Invalidez Permanente por Acidente</strong>
-                <span>Indenização antecipada caso perca a capacidade laboral.</span>
+                <strong>Afastamento por Acidente</strong>
+                <span>Receba indenização se um acidente te impedir temporária ou permanentemente de trabalhar.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
-                <strong>Doenças Graves Plus</strong>
-                <span>Resgate do valor em vida ao diagnosticar câncer, infarto, AVC e mais.</span>
+                <strong>Doenças Graves (Câncer, Infarto, AVC)</strong>
+                <span>Receba o dinheiro em vida no momento do diagnóstico para pagar tratamentos e remédios.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
-                <strong>Diária por Internação Hospitalar (DIT)</strong>
-                <span>Renda garantida para autônomos e profissionais em afastamento.</span>
+                <strong>Diária por Internação no Hospital</strong>
+                <span>Ajuda em dinheiro por dia que você precisar ficar internado se recuperando.</span>
               </div>
             </li>
           </ul>
@@ -69,38 +69,38 @@ const Coverages: React.FC = () => {
 
         <div className="plan-card coverage-card">
           <div className="card-header">
-            <div className="coverage-badge secondary">SERVIÇOS & ASSISTÊNCIAS</div>
-            <h3 className="card-title">Assistências 24 horas</h3>
-            <p className="card-desc">Benefícios prontos para uso desde o primeiro dia:</p>
+            <div className="coverage-badge secondary">SERVIÇOS INCLUSOS</div>
+            <h3 className="card-title">Ajuda Prática 24 horas</h3>
+            <p className="card-desc">Facilidades prontas para você usar desde o primeiro dia:</p>
           </div>
 
           <ul className="feature-list">
             <li>
               <IconCheck />
               <div>
-                <strong>Assistência Funeral Familiar Completa</strong>
-                <span>Cobertura de todos os custos e trâmites burocráticos sem estresse.</span>
+                <strong>Assistência Funeral Completa</strong>
+                <span>A seguradora cuida de todas as despesas e burocracias para sua família não ter dor de cabeça.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
-                <strong>Segunda Opinião Médica Internacional</strong>
-                <span>Consulta com especialistas dos maiores centros médicos mundiais.</span>
+                <strong>Consulta com Médicos no Celular</strong>
+                <span>Tire dúvidas de saúde e peça segunda opinião médica sem precisar sair de casa.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
                 <strong>Descontos de até 80% em Farmácias</strong>
-                <span>Economia em medicamentos nas principais redes do país.</span>
+                <span>Economize de verdade em medicamentos nas principais drogarias do país.</span>
               </div>
             </li>
             <li>
               <IconCheck />
               <div>
                 <strong>Sorteios Mensais em Dinheiro</strong>
-                <span>Concorra a prêmios em dinheiro pela Loteria Federal todo mês.</span>
+                <span>Concorra a prêmios em dinheiro todo mês pela Loteria Federal.</span>
               </div>
             </li>
           </ul>

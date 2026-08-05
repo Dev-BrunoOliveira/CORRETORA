@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="footer-brand-col">
           <Logo />
           <p className="footer-desc">
-            Sua corretora de confiança especializada em proteção familiar, planejamento sucessório e seguros de vida de alta liquidez.
+            Sua corretora de confiança especializada em cuidar de você e garantir a segurança financeira da sua família com transparência e rapidez.
           </p>
         </div>
 
@@ -25,15 +25,15 @@ const Footer: React.FC = () => {
 
         <div className="footer-info-col">
           <h4>Dados da Corretora</h4>
-          <p><strong>PARABELLUM CORRETORA DE SEGUROS LTDA</strong></p>
-          <p>CNPJ: 54.907.611/0001-47</p>
-          <p>R EVILASIO SILVA 34 - FONSECA</p>
-          <p>CEP: 24130-720 - Niterói / RJ</p>
+          <p><strong>PROTECTUS CORRETORA DE SEGUROS LTDA</strong></p>
+          <p>CNPJ: 42.108.935/0001-60</p>
+          <p>Av. Rio Branco, 156 - Sala 1204 - Centro</p>
+          <p>CEP: 20040-003 - Rio de Janeiro / RJ</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} PARABELLUM CORRETORA. Todos os direitos reservados.</p>
+        <p>© {new Date().getFullYear()} PROTECTUS CORRETORA. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
